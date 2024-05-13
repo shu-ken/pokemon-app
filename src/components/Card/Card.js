@@ -19,6 +19,7 @@ const Card = ({ pokemon }) => {
       </div>
       <div className="cardInfo">
         <div className="cardData">
+          <span>pokepoke</span>
           <p className="title">重さ:{pokemon.weight}</p>
           <p className="title">ウェイト:{pokemon.weight}</p>
         </div>
