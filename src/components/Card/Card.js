@@ -5,6 +5,7 @@ import "./Card.css";
 const Card = ({ pokemon }) => {
   return (
     <div className="card">
+      <p>あーゆーレディ？</p>
       <div className="cardImg">
         <img src={pokemon.sprites.front_default}></img>
         <h3 className="cardName">{pokemon.name}</h3>
