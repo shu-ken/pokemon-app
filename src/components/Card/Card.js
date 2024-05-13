@@ -7,6 +7,7 @@ const Card = ({ pokemon }) => {
     <div className="card">
       <p>あーゆーレディ？</p>
       <div className="cardImg">
+        <p>へいがいず</p>
         <img src={pokemon.sprites.front_default}></img>
         <h3 className="cardName">{pokemon.name}</h3>
         <div>作成したらどうなるの</div>
