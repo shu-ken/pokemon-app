@@ -8,7 +8,7 @@ const Card = ({ pokemon }) => {
       <div className="cardImg">
         <img src={pokemon.sprites.front_default}></img>
         <h3 className="cardName">{pokemon.name}</h3>
-        <div>porkを作成するよーん</div>
+        <div>porkを作成するよーんs</div>
         {pokemon.types.map((type) => {
           return (
             <div key={type.type.name}>
@@ -19,7 +19,7 @@ const Card = ({ pokemon }) => {
       </div>
       <div className="cardInfo">
         <div className="cardData">
-          <span>pokepoke</span>
+          <span>pokepokeだよ</span>
           <p className="title">重さ:{pokemon.weight}</p>
           <p className="title">ウェイト:{pokemon.weight}</p>
         </div>
