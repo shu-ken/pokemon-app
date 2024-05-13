@@ -24,6 +24,7 @@ const Card = ({ pokemon }) => {
         </div>
         <div className="cardData">
           <p className="title">高さ:{pokemon.height}</p>
+          <p className="title">height:{pokemon.height}</p>
         </div>
         <div className="cardData">
           <p className="title">あびあび:{pokemon.abilities[0].ability.name}</p>
